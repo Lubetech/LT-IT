@@ -1,3 +1,7 @@
+table {
+    margin: 50px;
+}
+
 tr td:first-of-type {
     font-weight: bold;
 }

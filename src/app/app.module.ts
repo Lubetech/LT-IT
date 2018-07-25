@@ -10,6 +10,8 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ChallengesComponent } from './challenges/challenges.component';
 import { July2018Component } from './challenges/july2018/july2018.component';
+import { NewsComponent } from './news/news.component';
+import { LunchAndLearnComponent } from './lunch-and-learn/lunch-and-learn.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { July2018Component } from './challenges/july2018/july2018.component';
     NavComponent,
     HomeComponent,
     ChallengesComponent,
-    July2018Component
+    July2018Component,
+    NewsComponent,
+    LunchAndLearnComponent
   ],
   imports: [BrowserModule, AppRoutingModule, MDBBootstrapModulesPro.forRoot()],
   providers: [MDBSpinningPreloader],
